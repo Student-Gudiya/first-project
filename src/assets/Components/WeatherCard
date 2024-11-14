@@ -1,0 +1,50 @@
+<!-- import React from 'react'; function WeatherCard() { return (
+<div
+  className="flex justify-center items-center min-h-screen bg-gradient-to-br from-purple-900 to-blue-900"
+>
+  <div
+    className="w-80 p-6 rounded-3xl bg-opacity-90 backdrop-blur-md text-white shadow-xl"
+  >
+    <div
+      className="flex items-center p-2 mb-6 bg-white bg-opacity-10 rounded-full">
+      <input
+        type="text"
+        placeholder="Search"
+        className="flex-grow pl-4 text-sm text-white bg-transparent focus:outline-none placeholder-gray-300"
+      />
+      <button className="text-white pr-4 text-xl">
+        <i className="bx bx-search"></i> {/* Use Boxicons or similar icon
+        library */}
+      </button>
+    </div>
+
+    {/* Weather Icon and Temperature */}
+    <div className="flex flex-col items-center">
+      <div
+        className="w-20 h-20 mb-4 bg-yellow-400 rounded-full flex items-center justify-center"
+      >
+        {/* Placeholder for Icon */}
+        <img
+          src="https://openweathermap.org/img/wn/01d@2x.png"
+          alt="Weather Icon"
+          className="w-16 h-16"
+        />
+      </div>
+      <h1 className="text-5xl font-bold">24°C</h1>
+      <h2 className="text-2xl font-medium mt-2">London</h2>
+    </div>
+
+    {/* Humidity and Wind Speed */}
+    <div className="flex justify-between mt-6 px-4">
+      <div className="text-center">
+        <div className="text-lg font-semibold">64%</div>
+        <div className="text-sm">Humidity</div>
+      </div>
+      <div className="text-center">
+        <div className="text-lg font-semibold">18 km/h</div>
+        <div className="text-sm">Wind Speed</div>
+      </div>
+    </div>
+  </div>
+</div>
+); } export default WeatherCard; -->
